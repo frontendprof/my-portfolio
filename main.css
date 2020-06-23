@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+
+:root{
+    --primary-color:rgb(236,107,129);
+    --secondary-color:#066;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Faster One', cursive;
+    line-height: 1.5;
+}
+
+
+.container{
+    max-width: 1100px;
+    background-color: pink;
+    padding: 0 1.5rem;
+    margin:auto;
+    /* overflow: hidden; */
+}
+
+#about{
+    height: 100vh;
+    background-color: rgb(134, 134, 212);
+
+}
+
+#navbar{
+    background-color: var(--primary-color);
+    color:#fff;
+    padding:1rem 3rem;
+    display: flex;    
+    list-style: none;
+    justify-content: flex-end;
+    position:fixed;
+    width: 100vw;
+}
+
+#navbar ul{
+    list-style: none;
+    display: flex;
+    font-family: 'Orbitron', sans-serif;
+    /* cursor: pointer; */
+}
+
+#navbar ul a{
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    font-size: 1.4rem;    
+    
+}
+
+#navbar ul a:hover{
+    background-color: rgb(253,6,47);
+}
+
+#about .container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#title{
+    color:rgb(134, 134, 212);
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.lead{
+    font-size: 1.8rem;
+    color:rgb(134, 134, 212);
+    font-weight: 800q;
+}
+
+
+/* 
+
+h1{
+    background-color: rgb(134, 134, 212);
+    color:#fff;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('./images/profile_girl.jpg');
+  min-height: 100%;
+  width: 40%;
+} */
+
+

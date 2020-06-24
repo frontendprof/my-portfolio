@@ -17,6 +17,7 @@
 body{
     font-family: 'Faster One', cursive;
     line-height: 1.5;
+    text-align: center;
 }
 
 img{
@@ -211,6 +212,21 @@ img{
 }
 
 
+/* Footer section */
+
+#main-footer{
+    border-top: solid 4px #fff;
+    background-color: var(--primary-color);
+    color:#fff;
+}
+
+#main-footer .container{
+    padding: 1.8rem 0.1rem;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
 
 
 

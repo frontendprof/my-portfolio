@@ -5,6 +5,7 @@
 :root{
     --primary-color:rgb(236,107,129);
     --secondary-color:#066;
+    --main-color:rgb(167, 167, 230);
 }
 *{
     margin:0;
@@ -99,14 +100,14 @@ img{
 
 
 #title{
-    color:rgb(134, 134, 212);
+    color:var(--main-color);
     font-size: 3rem;
     font-weight: bolder;
 }
 
 .lead{
     font-size: 1.8rem;
-    color:rgb(134, 134, 212);
+    color:var(--main-color);
     font-weight: 800q;
 }
 
@@ -167,24 +168,49 @@ img{
 
 
 
+/* COntact section */
+
+#contact{
+    height: 80vh;
+    background-color: var(--main-color);
+    color:#fff;
+}
+
+#contact .container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#contact .container h1{
+    font-size: 3.4rem;
+    font-weight: bolder;
+    padding-bottom: 1rem;    
+}
+
+#contact .container p{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+#contact .container .social>div a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color:#eee;
+    margin:1rem 2rem;
+    transition: transform .5s ease-in-out;
+}
+
+#contact .container .social>div a:hover{
+    transform: translateY(-8px);
+}
 
 
 
-
-
-
-
-
-
-
-
-/* .bgimg {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url('./images/profile_girl.jpg');
-  min-height: 100%;
-  width: 40%;
-} */
 
 

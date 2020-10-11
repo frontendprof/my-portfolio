@@ -228,5 +228,31 @@ img{
 
 }
 
+#main-footer .container p{
+    font-size:1.2rem;   
+
+}
+
+#main-footer #created a{
+    text-decoration: underline;
+    color:#eee;
+    line-height: 1.5;
+    
+
+}
+
+
+@media (max-width:600px){
+
+    #navbar{
+        
+        padding:0rem 1rem;
+        justify-content: center;
+        position:fixed;
+        width: 100vw;
+    }
+
+}
+
 
 

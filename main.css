@@ -10,7 +10,7 @@
 *{
     margin:0;
     padding:0;
-    box-sizing: border-box;
+    project-tile-sizing: border-project-tile;
     
 }
 
@@ -26,7 +26,7 @@ img{
 
 
 .container{
-    max-width: 1200px;
+    max-width: 1100px;
     padding: 0 1.5rem;
     margin:auto;
     /* overflow: hidden; */
@@ -51,7 +51,7 @@ img{
     background-color: rgb(253,6,47);
 }
 
-.mainBox{
+.mainproject-tile{
     background-color: #fff;
 }
 
@@ -69,7 +69,7 @@ img{
     list-style: none;
     justify-content: flex-end;
     position:fixed;
-    width: 100vw;
+    width: 95vw;
 }
 
 #navbar ul{
@@ -120,13 +120,13 @@ img{
     
 }
 
-#work .projects{
+#work #projects{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 3rem;
 }
 
-#work .projects p{
+#work #projects p{
     color:var(--secondary-color);
 }
 
@@ -149,7 +149,7 @@ img{
     margin-top:0;
 }
 
-#work .projects .box{
+#work #projects .project-tile{
     background-color: #fff;
     border:solid 5px #fff;
     border-radius: 10px;
@@ -162,7 +162,7 @@ img{
 }
 
 
-.box:hover .code{
+.project-tile:hover .code{
     color:var(--primary-color);
 
 }
@@ -253,6 +253,5 @@ img{
     }
 
 }
-
 
 
